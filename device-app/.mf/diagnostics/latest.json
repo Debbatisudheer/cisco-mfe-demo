@@ -1,0 +1,26 @@
+{
+  "bundler": {
+    "name": "webpack"
+  },
+  "mfConfig": {
+    "name": "deviceApp",
+    "exposes": {
+      "./DeviceDashboard": "./src/DeviceDashboard.jsx"
+    }
+  },
+  "latestErrorEvent": {
+    "code": "BUILD-001",
+    "message": "Failed to find expose module. #BUILD-001\nargs: {\"exposeModules\":[{\"name\":\"./DeviceDashboard\",\"module\":null,\"request\":\"./src/DeviceDashboard.jsx\"}],\"FEDERATION_WEBPACK_PATH\":\"\"}\nView the docs to see how to solve: https://module-federation.io/guide/troubleshooting/build#build-001",
+    "args": {
+      "exposeModules": [
+        {
+          "name": "./DeviceDashboard",
+          "module": null,
+          "request": "./src/DeviceDashboard.jsx"
+        }
+      ],
+      "FEDERATION_WEBPACK_PATH": ""
+    },
+    "timestamp": 1792837862757
+  }
+}
