@@ -10,6 +10,7 @@ module.exports = {
 
   output: {
     publicPath: "auto",
+    clean: true,
   },
 
   devServer: {
@@ -52,12 +53,12 @@ module.exports = {
       shared: {
         react: {
           singleton: true,
-          eager: true,
+          requiredVersion: false,
         },
 
         "react-dom": {
           singleton: true,
-          eager: true,
+          requiredVersion: false,
         },
       },
     }),
