@@ -41,19 +41,7 @@ module.exports = {
 
       remotes: {
         deviceApp:
-          "deviceApp@http://localhost:5174/remoteEntry.js",
-      },
-
-      shared: {
-        react: {
-          singleton: true,
-          requiredVersion: false,
-        },
-
-        "react-dom": {
-          singleton: true,
-          requiredVersion: false,
-        },
+          "deviceApp@https://cisco-mfe-demo-device-app.vercel.app/remoteEntry.js",
       },
     }),
 

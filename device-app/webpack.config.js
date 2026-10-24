@@ -49,18 +49,6 @@ module.exports = {
       exposes: {
         "./DeviceDashboard": "./src/DeviceDashboard.jsx",
       },
-
-      shared: {
-        react: {
-          singleton: true,
-          requiredVersion: false,
-        },
-
-        "react-dom": {
-          singleton: true,
-          requiredVersion: false,
-        },
-      },
     }),
 
     new HtmlWebpackPlugin({
